@@ -1,0 +1,23 @@
+{
+  "name": "terrain-voxel-3d",
+  "version": "2.0.0",
+  "description": "3D Minecraft-style voxel terrain map using DEM elevation data (Java backend + JS frontend)",
+  "private": true,
+  "scripts": {
+    "build": "build.bat",
+    "start": "run.bat",
+    "test": "bun test",
+    "test:java": "test.bat"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "keywords": [
+    "terrain",
+    "voxel",
+    "threejs",
+    "dem",
+    "minecraft"
+  ],
+  "license": "MIT"
+}
